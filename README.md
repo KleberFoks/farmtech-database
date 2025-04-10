@@ -49,7 +49,7 @@ Criar o Modelo Entidade-Relacionamento (MER) e o Diagrama Entidade-Relacionament
 - `README.md` → Documentação do MER
 - `modelo.dmd` → Arquivo do SQL Data Modeler
 - `modelo.ddl` → Script SQL das tabelas
-- `der.png` → Imagem do DER (exportada do Data Modeler)
+- `DER_FarmTechSolutions.png` → Imagem do DER (exportada do Data Modeler)
 
 ## 🧠 Observações
 

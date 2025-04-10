@@ -1,6 +1,6 @@
 # Modelagem de Banco de Dados - FarmTech Solutions 🌱
 
-Este projeto faz parte da Fase 2 - Capítulo 1 da disciplina de Banco de Dados na FIAP. Desenvolvemos a modelagem de um sistema para controle de sensores agrícolas utilizados em plantações para irrigação e aplicação de nutrientes.
+Este projeto faz parte da Fase 2 - Capítulo 1 da disciplina de Banco de Dados na FIAP. Desenvolvi a modelagem de um sistema para controle de sensores agrícolas utilizados em plantações para irrigação e aplicação de nutrientes.
 
 ## 🔧 Objetivo
 

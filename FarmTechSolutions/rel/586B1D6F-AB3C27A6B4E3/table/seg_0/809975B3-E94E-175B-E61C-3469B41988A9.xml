@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="809975B3-E94E-175B-E61C-3469B41988A9" name="Plantação">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:08:35 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_plantacao" id="D91296C1-8F5B-21F7-1F9C-451B2ED4D5EE">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:09:31 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome_cultura" id="12CC3011-8DC8-CF41-5A10-243E0F88333F">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:14:35 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localizacao" id="3B8F810D-845A-8F8C-C01F-6A6FAAFF5465">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:14:50 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="area_hectares" id="AD51F8C7-8C94-8DBF-FB09-996E478A486E">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:15:07 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="225D61B6-7C9F-493A-54B8-74A1CA0C1100" name="Plantação_PK">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:09:31 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D91296C1-8F5B-21F7-1F9C-451B2ED4D5EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

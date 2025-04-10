@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED71C474-2C47-CD59-B727-1CDB952CA486" name="LeituraSensor">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:15:26 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura" id="7AEA5950-F7DE-0B4A-A3A6-65DFBF341249">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:15:56 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="C62C77B7-D31D-FDCA-7340-727699535D0A">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:16:58 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADF75328-FFD7-9CCF-748E-729A14081C00" referredColumn="EB990C7F-D9DC-A349-4EE8-281F1AB3EEE2"/>
+</associations>
+</Column>
+<Column name="id_plantacao" id="64D64673-3745-475C-EDD2-55073C02F1BB">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:17:21 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EA4B57D7-7CC6-300F-90A0-1C2B0B21BC78" referredColumn="D91296C1-8F5B-21F7-1F9C-451B2ED4D5EE"/>
+</associations>
+</Column>
+<Column name="data_hora" id="C11F1334-6304-F9D8-3581-86BE09F73D82">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:17:52 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_lido" id="A3F434C8-8672-8E51-04A0-AB9575B28890">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:18:10 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="531A3423-3B39-EEFC-F35A-BA421B18AC7C" name="LeituraSensor_PK">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:15:56 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7AEA5950-F7DE-0B4A-A3A6-65DFBF341249"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5ABA48D-BE5E-1FE0-707A-471E773A7A55" name="fk_leitura_sensor">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:34:39 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62C77B7-D31D-FDCA-7340-727699535D0A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="914DE509-0EFA-598A-F55A-9CC24DE01661" name="fk_leitura_plantação">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:36:06 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64D64673-3745-475C-EDD2-55073C02F1BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

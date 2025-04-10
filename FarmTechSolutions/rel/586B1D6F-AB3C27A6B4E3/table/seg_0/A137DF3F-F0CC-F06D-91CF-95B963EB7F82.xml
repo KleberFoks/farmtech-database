@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A137DF3F-F0CC-F06D-91CF-95B963EB7F82" name="AplicacaoRecursos">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:18:45 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_aplicacao" id="0A98A07C-0AD2-FE94-B325-AFC53EDD57ED">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:19:11 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_plantacao" id="3F6B5D4C-4240-64E6-23F3-AB58EA6F9E5D">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:19:25 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5B6AA660-BE90-A2D9-12B0-91DEF3A70E31" referredColumn="D91296C1-8F5B-21F7-1F9C-451B2ED4D5EE"/>
+</associations>
+</Column>
+<Column name="data_hora" id="E01A2AEE-0855-804A-FA35-B44D0DA11338">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:19:39 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_agua" id="362C9839-04D2-2DC1-EF8E-6F8C1A4592F6">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:20:56 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_fosforo" id="7F519BDA-8B84-3022-FE00-E321FC39B9C7">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:21:18 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantidade_potassio" id="0B7E8C52-D3DF-EB58-DBA3-C5009103EEF9">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:22:00 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9B9F2DB-3B7D-537C-7981-82F051A53A61" name="AplicacaoRecursos_PK">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:19:11 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A98A07C-0AD2-FE94-B325-AFC53EDD57ED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28C70CDD-565F-3CEB-4606-77FAE33CE304" name="AplicacaoRecursos_Plantação_FK">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:36:46 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F6B5D4C-4240-64E6-23F3-AB58EA6F9E5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

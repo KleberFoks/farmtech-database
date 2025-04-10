@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="605F1E24-4B80-CA6B-69D1-C3591C1301DB" name="Sensor">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:01:11 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="EB990C7F-D9DC-A349-4EE8-281F1AB3EEE2">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:04:10 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_sensor" id="40FB35A2-3298-92D0-3D05-99CDDEBB0A3F">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:04:10 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="BB2BFD57-2BD9-3CAF-0BEC-237151AB40A7">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:04:30 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7EEFB5CE-1162-AC9A-12AD-9770DD7A30B5" name="Sensor_PK">
+<createdBy>hendr</createdBy>
+<createdTime>2025-04-10 18:04:10 UTC</createdTime>
+<ownerDesignName>teste</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB990C7F-D9DC-A349-4EE8-281F1AB3EEE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

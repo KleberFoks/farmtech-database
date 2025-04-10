@@ -1,6 +1,6 @@
 # Modelagem de Banco de Dados - FarmTech Solutions 🌱
 
-Este projeto faz parte da Fase 2 - Capítulo 1 da disciplina de Banco de Dados na FIAP. Desenvolvi a modelagem de um sistema para controle de sensores agrícolas utilizados em plantações para irrigação e aplicação de nutrientes.
+Este projeto faz parte da Fase 2 - Capítulo 1 da disciplina de Banco de Dados da FIAP. Desenvolvi a modelagem de um sistema para controle de sensores agrícolas utilizados em plantações, com foco em irrigação e aplicação de nutrientes.
 
 ## 🔧 Objetivo
 
@@ -8,7 +8,7 @@ Criar o Modelo Entidade-Relacionamento (MER) e o Diagrama Entidade-Relacionament
 
 - Armazena leituras dos sensores (umidade, pH, nutrientes)
 - Registra aplicações de água, fósforo e potássio nas plantações
-- Permite análise histórica e otimização da produção
+- Permite análise histórica e otimização da produção agrícola
 
 ## 🧱 Entidades e Atributos
 
@@ -40,24 +40,24 @@ Criar o Modelo Entidade-Relacionamento (MER) e o Diagrama Entidade-Relacionament
 
 ## 🔗 Relacionamentos
 
-- **Sensor 1:N LeituraSensor**
-- **Plantacao 1:N LeituraSensor**
-- **Plantacao 1:N AplicacaoRecursos**
+- **Sensor** 1 : N **LeituraSensor**
+- **Plantacao** 1 : N **LeituraSensor**
+- **Plantacao** 1 : N **AplicacaoRecursos**
 
 ## 📁 Arquivos do Repositório
 
-- `README.md` → Documentação do MER
-- `modelo.dmd` → Arquivo do SQL Data Modeler
-- `modelo.ddl` → Script SQL das tabelas
-- `DER_FarmTechSolutions.png` → Imagem do DER (exportada do Data Modeler)
+- `README.md` → Documentação do MER e DER
+- `modelo.dmd` → Arquivo do Oracle SQL Developer Data Modeler
+- `modelo.ddl` → Script SQL de criação das tabelas
+- `DER_FarmTechSolutions.png` → Imagem do DER exportada
 
 ## 🧠 Observações
 
-As relações foram implementadas no Oracle SQL Developer Data Modeler, com chave primária, chave estrangeira e tipos de dados definidos.
+As entidades, atributos, chaves primárias e estrangeiras foram modeladas utilizando o Oracle SQL Developer Data Modeler, com os tipos de dados compatíveis com o Oracle Database.
 
 ---
 
 **Integrante:**  
-Kleber Foks - RM562225  
+Kleber Foks – RM562225  
 Fase 2 – Capítulo 1  
 FIAP
